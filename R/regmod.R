@@ -5,7 +5,7 @@
 #' @return  Dataframe of Goodness of Fit
 #' @export
 #'
-#' @examples regdia(model1)
+#' 
 regdiag <- function(x) {
   # Adjusted R-squared
   adj_r_squared <- summary(x)$adj.r.squared
